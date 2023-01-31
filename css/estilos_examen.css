@@ -4,14 +4,17 @@
 }
 
 #contenido{
-    margin: 20px;
+    padding-top: 20px;
     display: flex;
     justify-content: center;
+    background-color: aqua;
 }
+
 
 #total{
     display: flex;
     justify-content: center;
+    background-color: aqua;
 }
 
 td{
@@ -21,6 +24,7 @@ td{
 th{
     border: 1px  solid black;
     padding: 10px;
+    background-color: white;
 }
 
 #fila_1{
