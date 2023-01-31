@@ -1,33 +1,3 @@
-function ajax(){
-    
-    const url = "/html/servicio.json";
-    axios.get(url)
-    .then((res)=>{
-        mostrar(res.data)
-    }).catch((err)=>{
-        console.log("Surgio un error " + err)
-    })
-
-    function mostrar(data){
-        let tabla = document.getElementById('tabla');
-        for(let item of data){
-                tabla.innerHTML+= "<tr><td>"+ item.codigo +"</td>" +
-                "<td>"+ item.idcliente +"</td>" +
-                "<td>"+ item.descripcion +"</td>" +
-                "<td>"+ item.cantidad +"</td>" +
-                "<td>"+ item.idcliente +"</td>" +
-                
-                console.log(item.idcliente)
-            
-        }// for
-
-    }// mostrar
-    
-}// ajax
-
-
-
-
 const llamandoFetch=()=>{
     const url = "/html/servicio.json";
     fetch(url)
