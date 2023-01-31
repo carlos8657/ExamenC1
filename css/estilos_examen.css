@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#contenido{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#total{
+    display: flex;
+    justify-content: center;
+}
+
+td{
+    border: 1px  solid black;
+    padding: 10px;
+}
+th{
+    border: 1px  solid black;
+    padding: 10px;
+}
+
+#fila_1{
+    background-color: white;
+}
+#fila_2{
+    background-color: gray;
+}

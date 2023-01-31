@@ -50,7 +50,8 @@ const llamandoFetch=()=>{
             "<td>"+ item.cantidad +"</td>" +
             "<td>"+ item.preciovta +"</td>" +
             "<td>"+ item.preciocompra +"</td>" +
-            "<td>"+ (item.preciovta * item.preciocompra) * item.cantidad +"</td>"
+            "<td>$"+ (item.preciovta * item.preciocompra) * item.cantidad +"</td>"
+            total.innerHTML = "<h2> Totales Ganancia: $" + totalGanancia + "</h2>"  
             }
             if(item.idcliente % 2 === 1){
             totalGanancia+=(item.preciovta * item.preciocompra) * item.cantidad
@@ -60,9 +61,9 @@ const llamandoFetch=()=>{
             "<td>"+ item.cantidad +"</td>" +
             "<td>"+ item.preciovta +"</td>" +
             "<td>"+ item.preciocompra +"</td>" +
-            "<td>"+ (item.preciovta * item.preciocompra) * item.cantidad +"</td>"
+            "<td>$"+ (item.preciovta * item.preciocompra) * item.cantidad +"</td>"
 
-            total.innerHTML = "<h2> Total Ganancia: " + totalGanancia + "</h2>"   
+            total.innerHTML = "<h2> Totales Ganancia: $" + totalGanancia + "</h2>"   
             }
  
             
